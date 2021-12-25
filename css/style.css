@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin: 7% auto;
+}
+.cookieCard{
+    width: 500px;
+    height: 340px;
+    background-image: linear-gradient(to left, #642d18, #080808);
+    box-shadow: rgb(36 36 36 / 54%) 0 8px 24px;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.cookieCard > img{
+    height: 135px;
+}
+.cookieCard.hide{
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+/**TEXTS**/
+
+.texts > h1{
+    color: #fff;
+    font: bold 33px
+    'Montserrat', sans-serif;
+    letter-spacing: 0.8px;
+    margin-bottom: 0;
+}
+.texts > p{
+    font: 17px
+    'Montserrat', sans-serif;
+    letter-spacing: 0.8px;
+    line-height: 22px;
+    margin-bottom: 0;
+    color: rgb(235, 235, 235);
+}
+.texts > button{
+    background-color: #7c7c7c;
+    border-radius: 50px;
+    padding: 15px 45px;
+    border: none;
+    font-size: 19px;
+    cursor: pointer;
+    margin-top: 15px;
+    color: #fff;
+}
